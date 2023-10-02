@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            background-color: rgb(0,0,33);
+        color:white;
+        font-family: 'Poppins', sans-serif;
+
+    }
+    nav{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        height:80px;
+        background-color: rgb(18,18,62);
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li{
+        list-style: none;
+        margin: 0 23px;
+    }
+    .left{
+        font-size: 1.5rem;
+
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin:130px 0;
+}
+.firstSection>div{
+    width: 30%;
+
+}
+
+
+.leftSection{
+    
+font-size: 2rem;
+margin:70px 0;
+}
+.rightSection img{
+    width: 80%;
+    
+}
+.purple{
+    color: rgb(170,107,228);
+}
+nav ul li a {
+     text-decoration:Snone;
+     color:white;
+}
+nav ul li a:hover{
+     font-size: 1.04rem;
+     color:rgb(150, 150, 214);
+}
+#element{
+    color: rgb(170,107,228);
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height:80vh;
+}
+.secondsection .box{
+    background: white;
+    width: 76vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+main hr{border: 0px;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+
+    
+}
+.secondsection h1{
+    font-size: 1.9rem;
+}
+.form{
+    padding: 50px;
+}
+
+
+    </style>
+</head>
+<body><header>
+    <nav>
+        <div class="left">Pooja's Portfolio</div>
+        <div class="right">
+            <ul>
+ <li><a href="/"> HOME</a></li>
+ <LI><a href="/">ABOUT ME</a></LI>
+ <LI><a href="/">SKILLS AND ACHIEVEMENTS</a></LI>
+ <LI><a href="/">CONTACT ME</a></LI>
+            </ul>
+        </div>
+    </nav>
+</header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi, my name is <span class="purple">Pooja
+
+            </span>
+            <div>
+                and I am a passionate 
+                
+                <span id="element"></span>
+
+            </div>
+            </div>
+            <div class="rightSection">
+                <img src="portfolio-removebg-preview.png" alt="">
+            </div>
+
+
+
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="grey">What I have done so far</span>
+           <u> <h1>Hands on Code</h1></u>
+           <br><br><br>
+           <form>
+            <fieldset class="form">
+                <br><br><br><br><br><br>
+                   I got a certificate in HTML and CSS from Infosys Springboard.<br>
+                <br>
+                   I got 4 stars in C language on the platform of Hackerrank.<br><br>
+                   I am a 3 stars coder in JAVA on the platform of Hackerrank.<br><br>
+                   I have 3 stars in Python on Hackerrank.<br><br><br><br><br><br>
+            </fieldset>
+           </form>
+
+                     
+        </section>
+
+
+    </main><script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+    var typed = new Typed('#element', {
+      strings: ['Frontend Developer', 'Coder'],
+      typeSpeed: 25,
+    });
+  </script>
+</body>
+</html>
